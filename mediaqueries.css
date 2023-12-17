@@ -7,6 +7,21 @@
   .header {
     padding: 2rem;
   }
+
+  .home .image, img{
+    width: 100%;
+  }
+
+  /* about page */
+
+  .about-description {
+    grid-template-columns: 1fr;
+    place-items: center;
+    }
+
+    .about-description-image {
+      margin-left: 0%;
+    }
 }
 
 @media (max-width:768px) {
@@ -15,7 +30,6 @@
     display: initial;
   }
   
-
   .header .navbar {
     position: absolute;
     top: 115%; right: 2rem;
@@ -42,12 +56,25 @@
     margin: 2.5rem;
   }
 
+  .home .image, img{
+    width: 100%;
+  }
+
 }
 
 @media (max-width:450px) {
 
   html {
     font-size: 50%;
+  }
+  
+
+}
+
+@media (max-width:375px) {
+
+  html {
+    font-size: 40%;
   }
   
 
