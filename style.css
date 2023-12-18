@@ -261,3 +261,49 @@ html {
   border-radius: .5rem;
   padding: 2rem;
 }
+
+.blogs .box-container .box .image{
+  height: 20rem;
+  overflow: hidden;
+  border-radius: .5rem;
+}
+.blogs .box-container .box .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.blogs .box-container .box:hover .image img{
+  transform: scale(1.2);
+}
+.blogs .box-container .box .content{
+  padding-top: 1rem;
+}
+
+.blogs .box-container .box .content .icon{
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blogs .box-container .box .content .icon a{
+ font-size: 1.4rem;
+ color: rgb(160, 156, 156);
+}
+/* need to be fix hover doesnt work */
+.blogs .box-container .box .content .icon a:hover{
+ color: #ffffff;
+ }
+.blogs .box-container .box .content .icon a i{
+  padding-right: .5rem;
+  color: #000000;
+ }
+ .blogs .box-container .box .content h3{
+  color: #000000;
+  font-size: 2rem;
+ }
+ .blogs .box-container .box .content p{
+  color: grey;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  padding: 1rem 0;
+ }
